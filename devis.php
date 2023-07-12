@@ -499,7 +499,7 @@ function test_input($data) {
 </div>
 <link rel="stylesheet" href="css/footer.css" media="all">
 <div class="footer-dark">
-    <footer>
+    <footer><div class="haha">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 item">
@@ -598,7 +598,7 @@ function test_input($data) {
                 </p>
 
         </div>
-    </footer>
+    </div></footer>
 </div>
 
 

@@ -539,7 +539,7 @@ function test_input($data) {
                             <li><p>et partout au Maroc.</p></li>
                         </ul>
 
-                        <a href="https://www.gardiennage-casablanca-maroc.com"><img  width="260px" height="115px" src="./accueil_files/WINBEST-GARDIENNAGE-SOCIETE-gardiennage-CASABLANCA.svg"></a>
+                        <a href="https://www.gardiennage-casablanca-maroc.com"><img  width="260px" height="115px" src="./accueil_files/WINBEST-GARDIENNAGE-SOCIETE-GARDIENNAGE-CASABLANCA.svg"></a>
                 </div>
                     <div class="col-md-5 item aa">
                             <b class="trFot">NOS SERVICES</b>

@@ -1,20 +1,36 @@
 @media screen and (min-width: 700px) {
   #ourServices #ourServicesListCon {
-    width: 700px;
+    width: 613px;
     margin: auto;
     /*-ms-grid-columns: (1fr)[2];*/
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   #ourServices-2 a {
     height: 250px;
   }
 }
+/* Styles for screens with a minimum width of 0px */
+@media screen and (min-width: 0px) {
+  #ourServices #ourServicesListCon {
+    width: 100%; /* Adjust the width as needed */
+    margin: auto; /* Center the container */
+    display: flex; /* Use flexbox to center the content */
+    flex-wrap: wrap; /* Allow content to wrap to the next line */
+    justify-content: center; /* Center the items horizontally */
+  }
+  #ourServices-2 a {
+    height: 250px; /* Adjust the height as needed */
+  }
+}
+
 
 @media screen and (min-width: 1000px) {
   #ourServices #ourServicesListCon {
     /*-ms-grid-columns: (1fr)[3];*/
-    width: 1271px;
-    grid-template-columns: repeat(4, 1fr);
+    width: 840px;
+    margin: auto;
+    /*-ms-grid-columns: (1fr)[3];*/
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

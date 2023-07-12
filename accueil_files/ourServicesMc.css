@@ -3,7 +3,7 @@
     width: 700px;
     margin: auto;
     /*-ms-grid-columns: (1fr)[2];*/
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   #ourServices-2 a {
     height: 250px;
@@ -21,9 +21,10 @@
 @media screen and (min-width: 1413px) {
   #ourServices #ourServicesListCon {
     /*width: 1271px;*/
-    width: 900px;
+    width: 80%;
+    margin-left: 10%;
     /*-ms-grid-columns: (1fr)[4];*/
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 /*# sourceMappingURL=ourServicesMc.css.map */

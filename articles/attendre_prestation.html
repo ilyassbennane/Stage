@@ -408,8 +408,9 @@ De ce fait, les dispositifs de surveillance mis en place doivent :<ul>
 
                         </div>
                         <div class="col-12 col-sm-6 col-md-4">
-                            <h2 style="text-align: center;"><strong> Derniers Articles</strong></h2>
                             <div class="article-container">
+                                <h2 style="text-align: center;"><strong> Derniers Articles</strong></h2>
+
                                 <div class="article">
                                     <img src="../accueil_files/blog/agents.webp" alt="Article 1" class="rounded-image">
                                     <h3><a href="diff_types_agents.html">différents types des agents de sécurité privée</a> </h3>
@@ -439,14 +440,17 @@ De ce fait, les dispositifs de surveillance mis en place doivent :<ul>
 }
 
 .article {
+    display: flex;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .rounded-image {
     border-radius: 50%;
-    width: 150px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
+}
+.article h3 {
+  font-size: 20px; /* Remplacez la valeur par celle de votre choix */
 }
 
                         </style>
